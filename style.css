@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* container CSS */
+.container {
+  display: flex;
+}
+
+/* sidebar CSS properties */
+.sidebar {
+  background-color: white;
+  width: 100px;
+  height: 560px;
+  display: grid;
+  align-content: space-between;
+}
+
+.bfore-img {
+  width: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.dots-img {
+  width: 25px;
+  margin-bottom: 30px;
+  margin-left: 31px;
+}
+
+.option-container > img {
+  width: 25px;
+}
+
+.option-container {
+  height: 250px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* primary container CSS */
+
+.primary-container {
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+}
+
+.inner-container {
+  display: grid;
+  gap: 8px;
+}
+
+/* inner container CSS properties */
+
+/* box 1 CSS */
+
+.box-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 7px;
+}
+
+.steps {
+  margin-left: 22px;
+  font-size: small;
+}
+
+.profile-shortname {
+    margin-top: 15px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px 9px 10px 9px;
+    background-color: rgb(169, 0, 169);
+    width: 40px;
+    border-radius: 4px;
+    color: white;
+}
+
+.box-2 {
+  margin: 50px 10px 5px 10px;
+  border-radius: 7px;
+  background-color: white;
+  padding: 90px;
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2)
+}
+
+.box-3 {
+  background-color: darkcyan;
+  padding: 80px;
+}
