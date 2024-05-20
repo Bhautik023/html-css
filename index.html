@@ -2,48 +2,290 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First web page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="media.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
-<body>
-    <div class="container">
-        <div class="sidebar">
-            <img class="bfore-img" src="bforelogo2.png" alt="before logo" />
+<body style="background-color: rgb(241, 241, 241)">
+  <div class="container">
+    <div class="sidebar">
+      <img class="bfore-img" src="bforelogo2.png" alt="before logo" />
 
-            <div class="option-container">
+      <div class="option-container">
+        <img class="home-img" src="home.jpg" alt="home logo" />
+        <img class="option-img" src="option.png" alt="option logo" />
+        <img class="robot-img" src="robot.png" alt="robot logo" />
+        <img class="stop-img" src="stop.png" alt="stop logo" />
+        <img class="book-img" src="book.png" alt="book logo" />
+        <img class="earth-img" src="earth.png" alt="earth logo" />
+      </div>
 
-                <img class="home-img" src="home.jpg" alt="home logo" />
-                <img class="option-img" src="option.png" alt="option logo" />
-                <img class="robot-img" src="robot.png" alt="robot logo" />
-                <img class="stop-img" src="stop.png" alt="stop logo" />
-                <img class="book-img" src="book.png" alt="book logo" />
-                <img class="earth-img" src="earth.png" alt="earth logo" />
-
-            </div>
-
-            <img class="dots-img" src="dotslogo.jpg" alt="dots logo" />
-        </div>
-        <div class="primary-container">
-            <div class="inner-container">
-                <div class="box-1">
-                    <div>
-                    <h3 class="header">Company Overview</h3>
-                    <p class="steps"><strong> Home / Company / View </strong></p>
-                    </div>
-                    <div class="profile-shortname">NK</div>
-                </div>
-                <div class="box-2">
-                    <div class="Company-logo"></div>
-                </div>
-                <div class="box-3">
-                    <p>box 3</p>
-                </div>
-            </div>
-        </div>
+      <img class="dots-img" src="dotslogo.jpg" alt="dots logo" />
     </div>
+    <div class="primary-container">
+      <div class="inner-container">
+        <div class="box-1">
+          <div>
+            <h3 class="header">Company Overview</h3>
+            <p class="steps"><strong> Home / Company / View </strong></p>
+          </div>
+          <p class="profile-shortname">NK</p>
+        </div>
+        <div class="box-2">
+          <div class="inner-box">
+            <div class="profile-container">
+              <div class="profile-img-container">
+                <img class="profile-img" src="profile-alternative.png" />
+              </div>
+              <div>
+                <div class="company-name">
+                  <h3>Linux Foundation - test</h3>
+                  <div class="precrime">
+                    <h6>Precrime Network</h6>
+                    <h6>Precrime Network</h6>
+                    <h6>Precrime Network</h6>
+                  </div>
+                </div>
+                <div class="company-details">
+                  <div class="contact">
+                    <img src="Contact-logo.jpg" class="contact-logo" />
+                    <h5>2 Contact</h5>
+                  </div>
+                  <div class="location">
+                    <img src="location-icon.jpg" class="location-icon" />
+                    <h5>No Address</h5>
+                  </div>
+                  <div class="mail">
+                    <img src="mail-icon.jpg" class="mail-icon" />
+                    <h5>andrea.sannuto@bfore.ai</h5>
+                  </div>
+                </div>
+                <div class="dotted-box">
+                  <div class="threats">
+                    <div class="inner-details">
+                      <strong>?</strong> <br />
+                      <h6>Threats</h6>
+                    </div>
+                  </div>
+                  <div class="domains">
+                    <div class="inner-details">
+                      <strong>0</strong> <br />
+                      <h6>Protected Domains</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="buttons">
+              <button type="button" class="threats-button">Threats</button>
+              <button type="button" class="entity-button">
+                Add Child Entity
+              </button>
+            </div>
+          </div>
+          <div class="lower-menu">
+            <h5><a href="#tab-1-container">Overview</a></h5>
+            <h5><a href="#tab-2-container">Protected Domains</a></h5>
+            <h5><a href="#tab-3-container">Activity Logs</a></h5>
+            <h5><a href="#tab-4-container">Child companies</a></h5>
+            <h5><a href="#tab-5-container">Information</a></h5>
+            <h5><a href="#tab-6-container">Users</a></h5>
+            <h5><a href="#tab-7-container">Keywords</a></h5>
+          </div>
+        </div>
+        <div class="box-3">
+          <div id="tab-1-container" class="tab-container">
+            <div class="first-container">
+              <div class="sub-header">
+                <div class="right-content">
+                  <h5>Activity Logs</h5>
+                  <h6>2 Logs</h6>
+                </div>
+                <button type="button" class="viewall-button">
+                  <strong>View All</strong>
+                </button>
+              </div>
+              <div class="sub-section">
+                <div class="events-show">
+                  <div class="date-time-column">
+                    <p class="date-time">
+                      <strong>2024-04-22T20:27: 23</strong>
+                    </p>
+                    <p class="date-time">
+                      <strong>2024-04-22T20:27: 23</strong>
+                    </p>
+                  </div>
+                  <div class="process-indicator">
+                    <div class="circle-outer">
+                      <div class="circle-inner"></div>
+                    </div>
+                    <div class="bars"></div>
+                    <div class="circle-outer" style="margin-top: 0">
+                      <div class="circle-inner"></div>
+                    </div>
+                    <div class="bars"></div>
+                  </div>
+                </div>
+                <div class="activities">
+                  <p>
+                    <strong>
+                      Foundation - test added Linux Torvald as new contact
+                      !</strong>
+                  </p>
+                  <p>
+                    <strong>
+                      Foundation - test added Linux Torvald as new contact
+                      !</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="second-container">
+              <div class="sub-header">
+                <div class="right-content">
+                  <h5>Latest Threats</h5>
+                </div>
+                <button type="button" class="viewall-button">
+                  <strong>View All</strong>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="tab-2-container" class="tab-container">
+            <div class="tab-2-header">
+              <form>
+                <div class="search-container">
+                  <span class="search-icon material-symbols-outlined">
+                    search</span>
+                  <input type="search" class="search-input" placeholder="Search for names.." />
+                </div>
+              </form>
+              <button>+ Add Domain</button>
+            </div>
+            <section class="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>DOMAIN NAME</td>
+                    <td>IP ADDRESS</td>
+                    <td>STATUS</td>
+                    <td>GENERIC</td>
+                    <td>LAST SEEN</td>
+                    <td>ACTIONS</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>slmn.ph</td>
+                    <td>-</td>
+                    <td>
+                      <select class="conditions" id="selector">
+                        <option value="active">Active</option>
+                        <option value="inactive">Inactive</option>
+                      </select>
+                    </td>
+                    <td><input type="checkbox" /></td>
+                    <td>01 jan 0001, 12:00 AM</td>
+                    <td>
+                      <select id="action-container">
+                        <option value="actions">Actions</option>
+                        <option value="dummy">Dummy</option>
+                      </select>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>salmon.ph</td>
+                    <td>-</td>
+                    <td>
+                      <select class="conditions" id="selector">
+                        <option value="active">Active</option>
+                        <option value="inactive">Inactive</option>
+                      </select>
+                    </td>
+                    <td><input type="checkbox" /></td>
+                    <td>24 apr 2024, 02:11 AM</td>
+                    <td>
+                      <select id="action-container">
+                        <option value="actions">Actions</option>
+                        <option value="dummy">Dummy</option>
+                      </select>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div class="count-container">
+              <select name="pages" class="page-count-container">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="10">10</option>
+              </select>
+              <div class="display-page-container">
+                <h6>&lt</h6>
+                <div class="display-page-no">
+                  <h5>1</h5>
+                </div>
+                <h6>&gt</h6>
+              </div>
+            </div>
+          </div>
+          <div id="tab-3-container" class="tab-container">
+            <div class="tab-3-header">
+              <span class="material-symbols-outlined"> calendar_month </span>
+              <h4>May 14, 2024</h4>
+            </div>
+            <hr>
+            <div class="activity-log">
+              <div class="activity-log-1">
+                <div class="process-logo-1"></div>
+                <div class="activity-msg-1">
+                  <p class="description">Salmon added salmon.ph as protected domain !</p>
+                  <p class="alert-msg">Alerted 20 day(s) ago by Agatha</p>
+                </div>
+              </div>
+              <div class="process-logo-connector"></div>
+              <div class="activity-log-2">
+                <div class="process-logo-2"></div>
+                <div class="activity-msg-2">
+                  <p class="description">Salmon added salmon.ph as protected domain !</p>
+                  <p class="alert-msg">Alerted 20 day(s) ago by Agatha</p>
+                </div>
+              </div>
+            </div>
+            <div class="display-page-container">
+              <h6>&lt</h6>
+              <div class="display-page-no">
+                <h5>1</h5>
+              </div>
+              <h6>&gt</h6>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="developer-details">
+            <p>Created by <strong>BForeAI Blue Team</strong></p>
+          </div>
+          <div class="about-section">
+            <a href="#">About</a>
+            <a href="#">Log Out</a>
+            <a href="#">Support - marketing@bfore.ai</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
